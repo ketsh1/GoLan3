@@ -13,9 +13,6 @@ type ContactRepository interface {
 	Get(ctx context.Context, id int64) (*domain.Contact, error)
 	Update(ctx context.Context, contact *domain.Contact) error
 	Delete(ctx context.Context, id int64) error
-
-	// Additional methods based on Use Case requirements
-	// ...
 }
 
 // GroupRepository defines the repository for the group domain.

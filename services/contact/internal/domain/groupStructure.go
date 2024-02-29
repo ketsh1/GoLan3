@@ -6,8 +6,6 @@ import "fmt"
 type Group struct {
 	ID int64 `db:"id"`
 
-	// Name is the name of the group.
-	// It has a maximum length of 250 characters.
 	Name string `db:"name"`
 }
 
